@@ -140,6 +140,11 @@ KeepAliveTimeout 60
 			<Item Name="Single Button Number.vi" Type="VI" URL="../VI Toolkit/Single Button Number.vi"/>
 			<Item Name="Dead Band.vi" Type="VI" URL="../VI Toolkit/Dead Band.vi"/>
 			<Item Name="UpDownNone.vi" Type="VI" URL="../VI Toolkit/UpDownNone.vi"/>
+			<Item Name="Accelration Control (by Throttle).vi" Type="VI" URL="../VI Toolkit/Accelration Control (by Throttle).vi"/>
+		</Item>
+		<Item Name="Joystick" Type="Folder">
+			<Item Name="Pilot Analyze.vi" Type="VI" URL="../Pilot Analyze.vi"/>
+			<Item Name="CoPilot Analyze.vi" Type="VI" URL="../CoPilot Analyze.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -711,6 +716,7 @@ KeepAliveTimeout 60
 				<Item Name="WPI_RelayRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Set.vi"/>
 				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 				<Item Name="WPI_AnalogChannelRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Set.vi"/>
+				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
