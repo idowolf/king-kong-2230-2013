@@ -133,6 +133,7 @@ KeepAliveTimeout 60
 			<Item Name="CoPilot Analyze.vi" Type="VI" URL="../CoPilot Analyze.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
+			<Item Name="names.vi" Type="VI" URL="../names.vi"/>
 			<Item Name="BotStatus.vi" Type="VI" URL="../BotStatus.vi"/>
 		</Item>
 		<Item Name="Stack" Type="Folder">
@@ -153,8 +154,10 @@ KeepAliveTimeout 60
 			<Item Name="UpDownNone.vi" Type="VI" URL="../VI Toolkit/UpDownNone.vi"/>
 			<Item Name="Accelration Control (by Throttle).vi" Type="VI" URL="../VI Toolkit/Accelration Control (by Throttle).vi"/>
 		</Item>
+		<Item Name="General" Type="Folder">
+			<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -727,9 +730,6 @@ KeepAliveTimeout 60
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
