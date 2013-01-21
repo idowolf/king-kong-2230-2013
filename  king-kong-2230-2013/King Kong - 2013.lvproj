@@ -128,6 +128,17 @@ KeepAliveTimeout 60
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
+		<Item Name="Joystick" Type="Folder">
+			<Item Name="Pilot Analyze.vi" Type="VI" URL="../Pilot Analyze.vi"/>
+			<Item Name="CoPilot Analyze.vi" Type="VI" URL="../CoPilot Analyze.vi"/>
+		</Item>
+		<Item Name="Global Variables" Type="Folder">
+			<Item Name="BotStatus.vi" Type="VI" URL="../BotStatus.vi"/>
+		</Item>
+		<Item Name="Stack" Type="Folder">
+			<Item Name="Flipper Control.vi" Type="VI" URL="../Flipper Control.vi"/>
+			<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
+		</Item>
 		<Item Name="VI Toolkit" Type="Folder">
 			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
 			<Item Name="Count Only Once Vr2.vi" Type="VI" URL="../VI Toolkit/Count Only Once Vr2.vi"/>
@@ -142,12 +153,7 @@ KeepAliveTimeout 60
 			<Item Name="UpDownNone.vi" Type="VI" URL="../VI Toolkit/UpDownNone.vi"/>
 			<Item Name="Accelration Control (by Throttle).vi" Type="VI" URL="../VI Toolkit/Accelration Control (by Throttle).vi"/>
 		</Item>
-		<Item Name="Joystick" Type="Folder">
-			<Item Name="Pilot Analyze.vi" Type="VI" URL="../Pilot Analyze.vi"/>
-			<Item Name="CoPilot Analyze.vi" Type="VI" URL="../CoPilot Analyze.vi"/>
-		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="BotStatus.vi" Type="VI" URL="../BotStatus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>

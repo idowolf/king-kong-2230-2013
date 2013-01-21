@@ -41,6 +41,7 @@
 			<Item Name="Distance of 2 Points.vi" Type="VI" URL="../Distance of 2 Points.vi"/>
 			<Item Name="Map Image.vi" Type="VI" URL="../Map Image.vi"/>
 			<Item Name="Distance + Height to Angle + Length.vi" Type="VI" URL="../Distance + Height to Angle + Length.vi"/>
+			<Item Name="Get Map Image Path.vi" Type="VI" URL="../Get Map Image Path.vi"/>
 		</Item>
 		<Item Name="Images" Type="Folder">
 			<Item Name="BlueTeam.jpg" Type="Document" URL="../images/BlueTeam.jpg"/>
