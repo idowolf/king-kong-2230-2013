@@ -139,6 +139,7 @@ KeepAliveTimeout 60
 		<Item Name="Stack" Type="Folder">
 			<Item Name="Flipper Control.vi" Type="VI" URL="../Flipper Control.vi"/>
 			<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
+			<Item Name="Stack Management.vi" Type="VI" URL="../Stack Management.vi"/>
 		</Item>
 		<Item Name="VI Toolkit" Type="Folder">
 			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
@@ -730,6 +731,9 @@ KeepAliveTimeout 60
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
