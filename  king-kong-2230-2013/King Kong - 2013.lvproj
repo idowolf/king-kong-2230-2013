@@ -139,7 +139,6 @@ KeepAliveTimeout 60
 		<Item Name="Stack" Type="Folder">
 			<Item Name="Flipper Control.vi" Type="VI" URL="../Flipper Control.vi"/>
 			<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
-			<Item Name="Stack Management.vi" Type="VI" URL="../Stack Management.vi"/>
 		</Item>
 		<Item Name="VI Toolkit" Type="Folder">
 			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
@@ -155,9 +154,13 @@ KeepAliveTimeout 60
 			<Item Name="UpDownNone.vi" Type="VI" URL="../VI Toolkit/UpDownNone.vi"/>
 			<Item Name="Accelration Control (by Throttle).vi" Type="VI" URL="../VI Toolkit/Accelration Control (by Throttle).vi"/>
 			<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.1.vi"/>
+			<Item Name="AI2Degree.vi" Type="VI" URL="../VI Toolkit/AI2Degree.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
 			<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
+		</Item>
+		<Item Name="Shooter" Type="Folder">
+			<Item Name="Shooting Managment.vi" Type="VI" URL="../Shooting Managment.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -738,6 +741,9 @@ KeepAliveTimeout 60
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.0.vi"/>
+			<Item Name="AI2Degree.vi" Type="VI" URL="../King Kong/VI Toolkit/AI2Degree.vi"/>
+			<Item Name="SIMPID(v.2) (With Vbus).vi" Type="VI" URL="../SIMPID(v.2) (With Vbus).vi"/>
+			<Item Name="SimPID.vi" Type="VI" URL="../King Kong/VI Toolkit/SimPID.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

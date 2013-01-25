@@ -19,8 +19,6 @@
 			<Item Name="Decode Status Byte.vi" Type="VI" URL="../Decode Status Byte.vi"/>
 			<Item Name="Draw Simple Skeleton Picture.vi" Type="VI" URL="../Draw Simple Skeleton Picture.vi"/>
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
-			<Item Name="Button To Toggle Vr3.vi" Type="VI" URL="../Button To Toggle Vr3.vi"/>
-			<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../Button2ToggleV2.1.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
@@ -50,6 +48,10 @@
 		</Item>
 		<Item Name="Global" Type="Folder">
 			<Item Name="Keys Pressed Global.vi" Type="VI" URL="../Keys Pressed Global.vi"/>
+		</Item>
+		<Item Name="VI Toolkit" Type="Folder">
+			<Item Name="Button To Toggle Vr3.vi" Type="VI" URL="../Button To Toggle Vr3.vi"/>
+			<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../Button2ToggleV2.1.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Target Select with keyboard.vi" Type="VI" URL="../Target Select with keyboard.vi"/>
@@ -304,8 +306,6 @@
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="NT Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Numeric Array.vi"/>
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
-				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
