@@ -51,8 +51,10 @@
 			<Item Name="Keys Pressed Global.vi" Type="VI" URL="../Keys Pressed Global.vi"/>
 		</Item>
 		<Item Name="VI Toolkit" Type="Folder">
+			<Item Name="Key Pressed.vi" Type="VI" URL="../Key Pressed.vi"/>
 			<Item Name="Button To Toggle Vr3.vi" Type="VI" URL="../Button To Toggle Vr3.vi"/>
 			<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../Button2ToggleV2.1.vi"/>
+			<Item Name="Count Only Once.vi" Type="VI" URL="../Count Only Once.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -307,8 +309,6 @@
 				<Item Name="NT Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Numeric Array.vi"/>
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
 				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
-				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -330,7 +330,6 @@
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
 			<Item Name="Draw Target.vi" Type="VI" URL="../Draw Target.vi"/>
 			<Item Name="Mark Target Centers.vi" Type="VI" URL="../Mark Target Centers.vi"/>
-			<Item Name="Count Only Once.vi" Type="VI" URL="../Count Only Once.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
