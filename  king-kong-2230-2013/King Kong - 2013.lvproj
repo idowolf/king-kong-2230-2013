@@ -147,8 +147,9 @@ KeepAliveTimeout 60
 			<Item Name="Accelration Control (by Throttle).vi" Type="VI" URL="../VI Toolkit/Accelration Control (by Throttle).vi"/>
 			<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.1.vi"/>
 			<Item Name="AI2Degree.vi" Type="VI" URL="../VI Toolkit/AI2Degree.vi"/>
+			<Item Name="Freeze Value.vi" Type="VI" URL="../VI Toolkit/Freeze Value.vi"/>
 		</Item>
-		<Item Name="VI&apos;s" Type="Folder">
+		<Item Name="Robots Operations" Type="Folder">
 			<Item Name="Joystick" Type="Folder">
 				<Item Name="Pilot Analyze.vi" Type="VI" URL="../Pilot Analyze.vi"/>
 				<Item Name="CoPilot Analyze.vi" Type="VI" URL="../CoPilot Analyze.vi"/>
@@ -158,6 +159,7 @@ KeepAliveTimeout 60
 				<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
 			</Item>
 			<Item Name="Shooter" Type="Folder">
+				<Item Name="Adjust Shooter.vi" Type="VI" URL="../Adjust Shooter.vi"/>
 				<Item Name="Shooting Managment.vi" Type="VI" URL="../Shooting Managment.vi"/>
 			</Item>
 			<Item Name="Climb" Type="Folder">
