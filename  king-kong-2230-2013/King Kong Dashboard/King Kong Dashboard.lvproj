@@ -41,6 +41,7 @@
 			<Item Name="Map Image.vi" Type="VI" URL="../Map Image.vi"/>
 			<Item Name="Distance + Height to Angle + Length.vi" Type="VI" URL="../Distance + Height to Angle + Length.vi"/>
 			<Item Name="Get Map Image Path.vi" Type="VI" URL="../Get Map Image Path.vi"/>
+			<Item Name="Target Select with keyboard.vi" Type="VI" URL="../Target Select with keyboard.vi"/>
 		</Item>
 		<Item Name="Images" Type="Folder">
 			<Item Name="BlueTeam.jpg" Type="Document" URL="../images/BlueTeam.jpg"/>
@@ -54,7 +55,6 @@
 			<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../Button2ToggleV2.1.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
-		<Item Name="Target Select with keyboard.vi" Type="VI" URL="../Target Select with keyboard.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -307,6 +307,8 @@
 				<Item Name="NT Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Numeric Array.vi"/>
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
 				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -328,6 +330,7 @@
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
 			<Item Name="Draw Target.vi" Type="VI" URL="../Draw Target.vi"/>
 			<Item Name="Mark Target Centers.vi" Type="VI" URL="../Mark Target Centers.vi"/>
+			<Item Name="Count Only Once.vi" Type="VI" URL="../Count Only Once.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
