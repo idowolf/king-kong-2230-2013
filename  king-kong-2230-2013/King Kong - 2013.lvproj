@@ -131,6 +131,7 @@ KeepAliveTimeout 60
 		<Item Name="Global Variables" Type="Folder">
 			<Item Name="names.vi" Type="VI" URL="../names.vi"/>
 			<Item Name="BotStatus.vi" Type="VI" URL="../BotStatus.vi"/>
+			<Item Name="Motors Values.vi" Type="VI" URL="../Motors Values.vi"/>
 		</Item>
 		<Item Name="VI Toolkit" Type="Folder">
 			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
@@ -161,11 +162,13 @@ KeepAliveTimeout 60
 			<Item Name="Shooter" Type="Folder">
 				<Item Name="Adjust Shooter.vi" Type="VI" URL="../Adjust Shooter.vi"/>
 				<Item Name="Shooting Managment.vi" Type="VI" URL="../Shooting Managment.vi"/>
+				<Item Name="Fire-Sequence.vi" Type="VI" URL="../Fire-Sequence.vi"/>
 			</Item>
 			<Item Name="Climb" Type="Folder">
 				<Item Name="Climbing to Second Level.vi" Type="VI" URL="../Climbing to Second Level.vi"/>
 			</Item>
-			<Item Name="General" Type="Folder">
+			<Item Name="Updaters" Type="Folder">
+				<Item Name="Motor controller.vi" Type="VI" URL="../Motor controller.vi"/>
 				<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
 			</Item>
 		</Item>
@@ -748,6 +751,10 @@ KeepAliveTimeout 60
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.0.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
