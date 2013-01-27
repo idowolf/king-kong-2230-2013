@@ -163,6 +163,7 @@ KeepAliveTimeout 60
 				<Item Name="Adjust Shooter.vi" Type="VI" URL="../Adjust Shooter.vi"/>
 				<Item Name="Shooting Managment.vi" Type="VI" URL="../Shooting Managment.vi"/>
 				<Item Name="Fire-Sequence.vi" Type="VI" URL="../Fire-Sequence.vi"/>
+				<Item Name="Launcher Preperation.vi" Type="VI" URL="../Launcher Preperation.vi"/>
 			</Item>
 			<Item Name="Climb" Type="Folder">
 				<Item Name="Climbing to Second Level.vi" Type="VI" URL="../Climbing to Second Level.vi"/>
@@ -743,6 +744,8 @@ KeepAliveTimeout 60
 				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 				<Item Name="WPI_AnalogChannelRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Set.vi"/>
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
