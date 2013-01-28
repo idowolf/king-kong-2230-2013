@@ -174,6 +174,12 @@ KeepAliveTimeout 60
 				<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
 				<Item Name="Get Dashboard Data.vi" Type="VI" URL="../Get Dashboard Data.vi"/>
 			</Item>
+			<Item Name="Auto Shooting" Type="Folder">
+				<Item Name="Shoot Manual and Auto Management.vi" Type="VI" URL="../Shoot Manual and Auto Management.vi"/>
+				<Item Name="Auto Adjust Shooter Angle.vi" Type="VI" URL="../Auto Adjust Shooter Angle.vi"/>
+				<Item Name="Auto Set Shooter RPM.vi" Type="VI" URL="../Auto Set Shooter RPM.vi"/>
+				<Item Name="Auto Locate.vi" Type="VI" URL="../Auto Locate.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
