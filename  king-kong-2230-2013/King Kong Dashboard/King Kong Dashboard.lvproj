@@ -330,6 +330,10 @@
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
 			<Item Name="Draw Target.vi" Type="VI" URL="../Draw Target.vi"/>
 			<Item Name="Mark Target Centers.vi" Type="VI" URL="../Mark Target Centers.vi"/>
+			<Item Name="mxLvGenerateGuid.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGenerateGuid.vi"/>
+			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
+			<Item Name="mxLvDebugDisplayCaller.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDebugDisplayCaller.vi"/>
+			<Item Name="mxLvErrorHandler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvErrorHandler.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
