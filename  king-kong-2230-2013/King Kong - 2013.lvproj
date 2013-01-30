@@ -137,7 +137,6 @@ KeepAliveTimeout 60
 			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
 			<Item Name="Count Only Once Vr2.vi" Type="VI" URL="../VI Toolkit/Count Only Once Vr2.vi"/>
 			<Item Name="Button To Toggle Vr3.vi" Type="VI" URL="../VI Toolkit/Button To Toggle Vr3.vi"/>
-			<Item Name="Button To Toggle Vr4.vi" Type="VI" URL="../VI Toolkit/Button To Toggle Vr4.vi"/>
 			<Item Name="Count Only Once.vi" Type="VI" URL="../VI Toolkit/Count Only Once.vi"/>
 			<Item Name="SIMPID(v.2).vi" Type="VI" URL="../VI Toolkit/SIMPID(v.2).vi"/>
 			<Item Name="VBus to Relay.vi" Type="VI" URL="../VI Toolkit/VBus to Relay.vi"/>
@@ -755,6 +754,12 @@ KeepAliveTimeout 60
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="NT Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Numeric Array.vi"/>
 				<Item Name="SD Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Numeric Array.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithTalon.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithTalon.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithExistingMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithExistingMotors.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithCANJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithCANJaguar.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithVictor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithVictor.vi"/>
+				<Item Name="WPI_RobotDriveOpen2MotorWithJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithJaguar.vi"/>
+				<Item Name="WPI_RobotDriveOpen2Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2Motor.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
