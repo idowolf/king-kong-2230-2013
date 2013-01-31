@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -134,6 +133,11 @@ KeepAliveTimeout 60
 			<Item Name="BotStatus.vi" Type="VI" URL="../BotStatus.vi"/>
 			<Item Name="Motors Values.vi" Type="VI" URL="../Motors Values.vi"/>
 		</Item>
+		<Item Name="Global Variables Updaters" Type="Folder">
+			<Item Name="Motor controller.vi" Type="VI" URL="../Motor controller.vi"/>
+			<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
+			<Item Name="Get Dashboard Data.vi" Type="VI" URL="../Get Dashboard Data.vi"/>
+		</Item>
 		<Item Name="VI Toolkit" Type="Folder">
 			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
 			<Item Name="Count Only Once Vr2.vi" Type="VI" URL="../VI Toolkit/Count Only Once Vr2.vi"/>
@@ -161,25 +165,20 @@ KeepAliveTimeout 60
 				<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
 			</Item>
 			<Item Name="Shooter" Type="Folder">
-				<Item Name="Set RPM.vi" Type="VI" URL="../Set RPM.vi"/>
-				<Item Name="Adjust Shooter.vi" Type="VI" URL="../Adjust Shooter.vi"/>
-				<Item Name="Shooting Managment.vi" Type="VI" URL="../Shooting Managment.vi"/>
 				<Item Name="Fire-Sequence.vi" Type="VI" URL="../Fire-Sequence.vi"/>
+				<Item Name="Auto Locate.vi" Type="VI" URL="../Auto Locate.vi"/>
 				<Item Name="Launcher Preparation.vi" Type="VI" URL="../Launcher Preparation.vi"/>
+				<Item Name="Set RPM.vi" Type="VI" URL="../Set RPM.vi"/>
 			</Item>
 			<Item Name="Climb" Type="Folder">
 				<Item Name="Climbing to Second Level.vi" Type="VI" URL="../Climbing to Second Level.vi"/>
 			</Item>
-			<Item Name="Updaters" Type="Folder">
-				<Item Name="Motor controller.vi" Type="VI" URL="../Motor controller.vi"/>
-				<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
-				<Item Name="Get Dashboard Data.vi" Type="VI" URL="../Get Dashboard Data.vi"/>
-			</Item>
 			<Item Name="Auto Shooting" Type="Folder">
-				<Item Name="Shoot Manual and Auto Management.vi" Type="VI" URL="../Shoot Manual and Auto Management.vi"/>
-				<Item Name="Auto Adjust Shooter Angle.vi" Type="VI" URL="../Auto Adjust Shooter Angle.vi"/>
-				<Item Name="Auto Set Shooter RPM.vi" Type="VI" URL="../Auto Set Shooter RPM.vi"/>
-				<Item Name="Auto Locate.vi" Type="VI" URL="../Auto Locate.vi"/>
+				<Item Name="Cannon Angle Set.vi" Type="VI" URL="../Cannon Angle Set.vi"/>
+				<Item Name="Cannon RPM Set.vi" Type="VI" URL="../Cannon RPM Set.vi"/>
+				<Item Name="Get Formula.vi" Type="VI" URL="../Get Formula.vi"/>
+				<Item Name="Shoot Manual and Auto Management Vr2.vi" Type="VI" URL="../Shoot Manual and Auto Management Vr2.vi"/>
+				<Item Name="Auto Centerize.vi" Type="VI" URL="../Auto Centerize.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -761,12 +760,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_RobotDriveOpen2MotorWithVictor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithVictor.vi"/>
 				<Item Name="WPI_RobotDriveOpen2MotorWithJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithJaguar.vi"/>
 				<Item Name="WPI_RobotDriveOpen2Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2Motor.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -775,10 +768,7 @@ KeepAliveTimeout 60
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.0.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="Shoot Manual and Auto Management.vi" Type="VI" URL="../Shoot Manual and Auto Management.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
