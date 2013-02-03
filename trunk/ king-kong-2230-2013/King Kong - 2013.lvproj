@@ -163,6 +163,7 @@ KeepAliveTimeout 60
 			<Item Name="Stack" Type="Folder">
 				<Item Name="Flipper Control.vi" Type="VI" URL="../Flipper Control.vi"/>
 				<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
+				<Item Name="Stack Control - Servo Flipper.vi" Type="VI" URL="../Stack Control - Servo Flipper.vi"/>
 			</Item>
 			<Item Name="Shooter" Type="Folder">
 				<Item Name="Fire-Sequence.vi" Type="VI" URL="../Fire-Sequence.vi"/>
