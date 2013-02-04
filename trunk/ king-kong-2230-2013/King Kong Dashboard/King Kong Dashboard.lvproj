@@ -57,6 +57,7 @@
 			<Item Name="Count Only Once.vi" Type="VI" URL="../Count Only Once.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
+		<Item Name="Target Choice to position x,y.vi" Type="VI" URL="../Target Choice to position x,y.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
