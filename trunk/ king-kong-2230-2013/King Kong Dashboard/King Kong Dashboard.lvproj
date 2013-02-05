@@ -24,6 +24,7 @@
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
 		</Item>
 		<Item Name="Camera" Type="Folder">
+			<Item Name="Target Choice to position x,y.vi" Type="VI" URL="../Target Choice to position x,y.vi"/>
 			<Item Name="Target Analyze.vi" Type="VI" URL="../Target Analyze.vi"/>
 		</Item>
 		<Item Name="Vision" Type="Folder">
@@ -35,6 +36,7 @@
 			<Item Name="Score Particles.vi" Type="VI" URL="../Score Particles.vi"/>
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Sorted Particle Report.vi"/>
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Aspect Ratio Score.vi"/>
+			<Item Name="Draw Target.vi" Type="VI" URL="../Draw Target.vi"/>
 		</Item>
 		<Item Name="FieldMap" Type="Folder">
 			<Item Name="Distance of 2 Points.vi" Type="VI" URL="../Distance of 2 Points.vi"/>
@@ -57,7 +59,6 @@
 			<Item Name="Count Only Once.vi" Type="VI" URL="../Count Only Once.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
-		<Item Name="Target Choice to position x,y.vi" Type="VI" URL="../Target Choice to position x,y.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -329,7 +330,6 @@
 			</Item>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
-			<Item Name="Draw Target.vi" Type="VI" URL="../Draw Target.vi"/>
 			<Item Name="Mark Target Centers.vi" Type="VI" URL="../Mark Target Centers.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
