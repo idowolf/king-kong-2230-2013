@@ -129,7 +129,6 @@ KeepAliveTimeout 60
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Global Variables" Type="Folder">
-			<Item Name="names.vi" Type="VI" URL="../names.vi"/>
 			<Item Name="BotStatus.vi" Type="VI" URL="../BotStatus.vi"/>
 			<Item Name="Motors Values.vi" Type="VI" URL="../Motors Values.vi"/>
 		</Item>
@@ -163,7 +162,6 @@ KeepAliveTimeout 60
 			<Item Name="Stack" Type="Folder">
 				<Item Name="Flipper Control.vi" Type="VI" URL="../Flipper Control.vi"/>
 				<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
-				<Item Name="Stack Control - Servo Flipper.vi" Type="VI" URL="../Stack Control - Servo Flipper.vi"/>
 			</Item>
 			<Item Name="Shooter" Type="Folder">
 				<Item Name="Fire-Sequence.vi" Type="VI" URL="../Fire-Sequence.vi"/>
@@ -176,7 +174,6 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Auto Shooting" Type="Folder">
 				<Item Name="Cannon Angle Set.vi" Type="VI" URL="../Cannon Angle Set.vi"/>
-				<Item Name="Cannon RPM Set.vi" Type="VI" URL="../Cannon RPM Set.vi"/>
 				<Item Name="Get Formula.vi" Type="VI" URL="../Get Formula.vi"/>
 				<Item Name="Shoot Manual and Auto Management Vr2.vi" Type="VI" URL="../Shoot Manual and Auto Management Vr2.vi"/>
 				<Item Name="Auto Centerize.vi" Type="VI" URL="../Auto Centerize.vi"/>
