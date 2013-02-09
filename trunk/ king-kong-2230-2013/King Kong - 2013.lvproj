@@ -137,6 +137,23 @@ KeepAliveTimeout 60
 			<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
 			<Item Name="Get Dashboard Data.vi" Type="VI" URL="../Get Dashboard Data.vi"/>
 		</Item>
+		<Item Name="VI Toolkit" Type="Folder">
+			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
+			<Item Name="Count Only Once Vr2.vi" Type="VI" URL="../VI Toolkit/Count Only Once Vr2.vi"/>
+			<Item Name="Button To Toggle Vr3.vi" Type="VI" URL="../VI Toolkit/Button To Toggle Vr3.vi"/>
+			<Item Name="Count Only Once.vi" Type="VI" URL="../VI Toolkit/Count Only Once.vi"/>
+			<Item Name="SIMPID(v.2).vi" Type="VI" URL="../VI Toolkit/SIMPID(v.2).vi"/>
+			<Item Name="VBus to Relay.vi" Type="VI" URL="../VI Toolkit/VBus to Relay.vi"/>
+			<Item Name="SimPID.vi" Type="VI" URL="../VI Toolkit/SimPID.vi"/>
+			<Item Name="Law of Cosines.vi" Type="VI" URL="../VI Toolkit/Law of Cosines.vi"/>
+			<Item Name="Single Button Number.vi" Type="VI" URL="../VI Toolkit/Single Button Number.vi"/>
+			<Item Name="Dead Band.vi" Type="VI" URL="../VI Toolkit/Dead Band.vi"/>
+			<Item Name="UpDownNone.vi" Type="VI" URL="../VI Toolkit/UpDownNone.vi"/>
+			<Item Name="Accelration Control (by Throttle).vi" Type="VI" URL="../VI Toolkit/Accelration Control (by Throttle).vi"/>
+			<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.1.vi"/>
+			<Item Name="AI2Degree.vi" Type="VI" URL="../VI Toolkit/AI2Degree.vi"/>
+			<Item Name="Freeze Value.vi" Type="VI" URL="../VI Toolkit/Freeze Value.vi"/>
+		</Item>
 		<Item Name="Robots Operations" Type="Folder">
 			<Item Name="Joystick" Type="Folder">
 				<Item Name="Pilot Analyze.vi" Type="VI" URL="../Pilot Analyze.vi"/>
@@ -156,28 +173,11 @@ KeepAliveTimeout 60
 				<Item Name="Climbing to Second Level.vi" Type="VI" URL="../Climbing to Second Level.vi"/>
 			</Item>
 			<Item Name="Auto Shooting" Type="Folder">
-				<Item Name="Cannon Angle Set.vi" Type="VI" URL="../Cannon Angle Set.vi"/>
-				<Item Name="Get Formula.vi" Type="VI" URL="../Get Formula.vi"/>
 				<Item Name="Shoot Manual and Auto Management Vr2.vi" Type="VI" URL="../Shoot Manual and Auto Management Vr2.vi"/>
 				<Item Name="Auto Centerize.vi" Type="VI" URL="../Auto Centerize.vi"/>
+				<Item Name="Get Formula.vi" Type="VI" URL="../Get Formula.vi"/>
+				<Item Name="Cannon Angle Set.vi" Type="VI" URL="../Cannon Angle Set.vi"/>
 			</Item>
-		</Item>
-		<Item Name="VI Toolkit" Type="Folder">
-			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
-			<Item Name="Count Only Once Vr2.vi" Type="VI" URL="../VI Toolkit/Count Only Once Vr2.vi"/>
-			<Item Name="Button To Toggle Vr3.vi" Type="VI" URL="../VI Toolkit/Button To Toggle Vr3.vi"/>
-			<Item Name="Count Only Once.vi" Type="VI" URL="../VI Toolkit/Count Only Once.vi"/>
-			<Item Name="SIMPID(v.2).vi" Type="VI" URL="../VI Toolkit/SIMPID(v.2).vi"/>
-			<Item Name="VBus to Relay.vi" Type="VI" URL="../VI Toolkit/VBus to Relay.vi"/>
-			<Item Name="SimPID.vi" Type="VI" URL="../VI Toolkit/SimPID.vi"/>
-			<Item Name="Law of Cosines.vi" Type="VI" URL="../VI Toolkit/Law of Cosines.vi"/>
-			<Item Name="Single Button Number.vi" Type="VI" URL="../VI Toolkit/Single Button Number.vi"/>
-			<Item Name="Dead Band.vi" Type="VI" URL="../VI Toolkit/Dead Band.vi"/>
-			<Item Name="UpDownNone.vi" Type="VI" URL="../VI Toolkit/UpDownNone.vi"/>
-			<Item Name="Accelration Control (by Throttle).vi" Type="VI" URL="../VI Toolkit/Accelration Control (by Throttle).vi"/>
-			<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.1.vi"/>
-			<Item Name="AI2Degree.vi" Type="VI" URL="../VI Toolkit/AI2Degree.vi"/>
-			<Item Name="Freeze Value.vi" Type="VI" URL="../VI Toolkit/Freeze Value.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Feeder Control.vi" Type="VI" URL="../Feeder Control.vi"/>
