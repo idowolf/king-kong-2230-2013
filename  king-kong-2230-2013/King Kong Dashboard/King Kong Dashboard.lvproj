@@ -335,6 +335,8 @@
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
 			<Item Name="Mark Target Centers.vi" Type="VI" URL="../Mark Target Centers.vi"/>
+			<Item Name="Single Button Number.vi" Type="VI" URL="../../../../code 2012/2012 Dashboard Project/Single Button Number.vi"/>
+			<Item Name="Get Correct Target.vi" Type="VI" URL="../../../../code 2012/2012 Dashboard Project/Get Correct Target.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
