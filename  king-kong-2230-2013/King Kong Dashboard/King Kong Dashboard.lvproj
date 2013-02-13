@@ -311,10 +311,6 @@
 				<Item Name="NT Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Numeric Array.vi"/>
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
 				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
-				<Item Name="WPI_CameraRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRefNum Registry Set.vi"/>
-				<Item Name="Refnum Registry Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/Refnum Registry Operation.ctl"/>
-				<Item Name="WPI_CameraGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraGetSetRefNum.vi"/>
-				<Item Name="WPI_UtilitiesERRGetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesERRGetRefNum.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -335,8 +331,8 @@
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
 			<Item Name="Mark Target Centers.vi" Type="VI" URL="../Mark Target Centers.vi"/>
-			<Item Name="Single Button Number.vi" Type="VI" URL="../../../../code 2012/2012 Dashboard Project/Single Button Number.vi"/>
-			<Item Name="Get Correct Target.vi" Type="VI" URL="../../../../code 2012/2012 Dashboard Project/Get Correct Target.vi"/>
+			<Item Name="Single Button Number.vi" Type="VI" URL="../Single Button Number.vi"/>
+			<Item Name="Get Correct Target.vi" Type="VI" URL="../Get Correct Target.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
