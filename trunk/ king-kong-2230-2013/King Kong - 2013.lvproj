@@ -136,6 +136,7 @@ KeepAliveTimeout 60
 			<Item Name="Motor controller.vi" Type="VI" URL="../Motor controller.vi"/>
 			<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
 			<Item Name="Get Dashboard Data.vi" Type="VI" URL="../Get Dashboard Data.vi"/>
+			<Item Name="Send Dashboard Data.vi" Type="VI" URL="../Send Dashboard Data.vi"/>
 		</Item>
 		<Item Name="VI Toolkit" Type="Folder">
 			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
@@ -154,6 +155,7 @@ KeepAliveTimeout 60
 			<Item Name="AI2Degree.vi" Type="VI" URL="../VI Toolkit/AI2Degree.vi"/>
 			<Item Name="Freeze Value.vi" Type="VI" URL="../VI Toolkit/Freeze Value.vi"/>
 			<Item Name="Change Joystick Values.vi" Type="VI" URL="../VI Toolkit/Change Joystick Values.vi"/>
+			<Item Name="Sawtooth.vi" Type="VI" URL="../VI Toolkit/Sawtooth.vi"/>
 		</Item>
 		<Item Name="Robots Operations" Type="Folder">
 			<Item Name="Joystick" Type="Folder">
@@ -182,6 +184,10 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Feeder" Type="Folder">
 				<Item Name="Feeder Control.vi" Type="VI" URL="../Feeder Control.vi"/>
+			</Item>
+			<Item Name="Camera" Type="Folder">
+				<Item Name="Target Centralization.vi" Type="VI" URL="../Target Centralization.vi"/>
+				<Item Name="Find Rounded Error.vi" Type="VI" URL="../Find Rounded Error.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -774,8 +780,6 @@ KeepAliveTimeout 60
 			<Item Name="Flipper Control Servo.vi" Type="VI" URL="../Flipper Control Servo.vi"/>
 			<Item Name="Move Conveyer Belt.vi" Type="VI" URL="../Move Conveyer Belt.vi"/>
 			<Item Name="Frisbee Counter.vi" Type="VI" URL="../Frisbee Counter.vi"/>
-			<Item Name="Find Rounded Error.vi" Type="VI" URL="../Find Rounded Error.vi"/>
-			<Item Name="Target Centralization.vi" Type="VI" URL="../Target Centralization.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
