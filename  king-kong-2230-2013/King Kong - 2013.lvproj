@@ -156,6 +156,7 @@ KeepAliveTimeout 60
 			<Item Name="Freeze Value.vi" Type="VI" URL="../VI Toolkit/Freeze Value.vi"/>
 			<Item Name="Change Joystick Values.vi" Type="VI" URL="../VI Toolkit/Change Joystick Values.vi"/>
 			<Item Name="Sawtooth.vi" Type="VI" URL="../VI Toolkit/Sawtooth.vi"/>
+			<Item Name="TimeTaskerVr4.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr4.vi"/>
 		</Item>
 		<Item Name="Robots Operations" Type="Folder">
 			<Item Name="Joystick" Type="Folder">
