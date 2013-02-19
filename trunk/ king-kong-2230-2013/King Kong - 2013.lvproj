@@ -166,6 +166,7 @@ KeepAliveTimeout 60
 			<Item Name="Stack" Type="Folder">
 				<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
 				<Item Name="Flipper Control.vi" Type="VI" URL="../Flipper Control.vi"/>
+				<Item Name="Move Conveyer Belt.vi" Type="VI" URL="../Move Conveyer Belt.vi"/>
 			</Item>
 			<Item Name="Shooter" Type="Folder">
 				<Item Name="Fire-Sequence.vi" Type="VI" URL="../Fire-Sequence.vi"/>
@@ -784,7 +785,6 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.0.vi"/>
 			<Item Name="Flipper Control Servo.vi" Type="VI" URL="../Flipper Control Servo.vi"/>
-			<Item Name="Move Conveyer Belt.vi" Type="VI" URL="../Move Conveyer Belt.vi"/>
 			<Item Name="Frisbee Counter.vi" Type="VI" URL="../Frisbee Counter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
