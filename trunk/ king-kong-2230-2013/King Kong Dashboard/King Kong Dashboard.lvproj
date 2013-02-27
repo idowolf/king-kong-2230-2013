@@ -37,6 +37,8 @@
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Sorted Particle Report.vi"/>
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Aspect Ratio Score.vi"/>
 			<Item Name="Draw Target.vi" Type="VI" URL="../Draw Target.vi"/>
+			<Item Name="Cannon camera offset.vi" Type="VI" URL="../Cannon camera offset.vi"/>
+			<Item Name="Match equation target to real life.vi" Type="VI" URL="../Match equation target to real life.vi"/>
 		</Item>
 		<Item Name="FieldMap" Type="Folder">
 			<Item Name="Distance of 2 Points.vi" Type="VI" URL="../Distance of 2 Points.vi"/>
