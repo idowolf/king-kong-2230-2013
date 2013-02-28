@@ -39,6 +39,9 @@
 			<Item Name="Draw Target.vi" Type="VI" URL="../Draw Target.vi"/>
 			<Item Name="Cannon camera offset.vi" Type="VI" URL="../Cannon camera offset.vi"/>
 			<Item Name="Match equation target to real life.vi" Type="VI" URL="../Match equation target to real life.vi"/>
+			<Item Name="CCIP.vi" Type="VI" URL="../CCIP.vi"/>
+			<Item Name="Scale Conversion.vi" Type="VI" URL="../Scale Conversion.vi"/>
+			<Item Name="Convert Direction.ctl" Type="VI" URL="../Convert Direction.ctl"/>
 		</Item>
 		<Item Name="FieldMap" Type="Folder">
 			<Item Name="Distance of 2 Points.vi" Type="VI" URL="../Distance of 2 Points.vi"/>
@@ -313,6 +316,8 @@
 				<Item Name="NT Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Numeric Array.vi"/>
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
 				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
