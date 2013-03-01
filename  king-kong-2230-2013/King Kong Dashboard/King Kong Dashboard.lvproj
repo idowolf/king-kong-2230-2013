@@ -28,6 +28,16 @@
 			<Item Name="Target Analyze.vi" Type="VI" URL="../Target Analyze.vi"/>
 		</Item>
 		<Item Name="Vision" Type="Folder">
+			<Item Name="CCIP" Type="Folder">
+				<Item Name="CCIP.vi" Type="VI" URL="../CCIP.vi"/>
+				<Item Name="Cannon camera offset.vi" Type="VI" URL="../Cannon camera offset.vi"/>
+				<Item Name="Match equation target to real life.vi" Type="VI" URL="../Match equation target to real life.vi"/>
+				<Item Name="Scale Conversion.vi" Type="VI" URL="../Scale Conversion.vi"/>
+				<Item Name="Convert Direction.ctl" Type="VI" URL="../Convert Direction.ctl"/>
+				<Item Name="Vector to cartez.vi" Type="VI" URL="../Vector to cartez.vi"/>
+				<Item Name="Target Dimensions info + Seen now.vi" Type="VI" URL="../Target Dimensions info + Seen now.vi"/>
+				<Item Name="Aim drawings.vi" Type="VI" URL="../Aim drawings.vi"/>
+			</Item>
 			<Item Name="Compute Distance.vi" Type="VI" URL="../Compute Distance.vi"/>
 			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../Compute HSL Color Ranges.vi"/>
 			<Item Name="Draw Filled Rect.vi" Type="VI" URL="../Draw Filled Rect.vi"/>
@@ -37,11 +47,6 @@
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Sorted Particle Report.vi"/>
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Aspect Ratio Score.vi"/>
 			<Item Name="Draw Target.vi" Type="VI" URL="../Draw Target.vi"/>
-			<Item Name="Cannon camera offset.vi" Type="VI" URL="../Cannon camera offset.vi"/>
-			<Item Name="Match equation target to real life.vi" Type="VI" URL="../Match equation target to real life.vi"/>
-			<Item Name="CCIP.vi" Type="VI" URL="../CCIP.vi"/>
-			<Item Name="Scale Conversion.vi" Type="VI" URL="../Scale Conversion.vi"/>
-			<Item Name="Convert Direction.ctl" Type="VI" URL="../Convert Direction.ctl"/>
 		</Item>
 		<Item Name="FieldMap" Type="Folder">
 			<Item Name="Distance of 2 Points.vi" Type="VI" URL="../Distance of 2 Points.vi"/>
