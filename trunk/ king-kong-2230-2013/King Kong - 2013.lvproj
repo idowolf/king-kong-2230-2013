@@ -177,6 +177,7 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Climb" Type="Folder">
 				<Item Name="Climbing to Second Level.vi" Type="VI" URL="../Climbing to Second Level.vi"/>
+				<Item Name="Manual Climb.vi" Type="VI" URL="../King Kong Dashboard/Manual Climb.vi"/>
 			</Item>
 			<Item Name="Auto Shooting" Type="Folder">
 				<Item Name="Shoot Manual and Auto Management Vr2.vi" Type="VI" URL="../Shoot Manual and Auto Management Vr2.vi"/>
@@ -190,6 +191,7 @@ KeepAliveTimeout 60
 			<Item Name="Camera" Type="Folder">
 				<Item Name="Target Centralization.vi" Type="VI" URL="../Target Centralization.vi"/>
 				<Item Name="Find Rounded Error.vi" Type="VI" URL="../Find Rounded Error.vi"/>
+				<Item Name="Camera handle.vi" Type="VI" URL="../Camera handle.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Other VIs" Type="Folder">
