@@ -162,6 +162,7 @@ KeepAliveTimeout 60
 			<Item Name="Joystick" Type="Folder">
 				<Item Name="Pilot Analyze.vi" Type="VI" URL="../Pilot Analyze.vi"/>
 				<Item Name="CoPilot Analyze.vi" Type="VI" URL="../CoPilot Analyze.vi"/>
+				<Item Name="CameraControler Analyze.vi" Type="VI" URL="../CameraControler Analyze.vi"/>
 			</Item>
 			<Item Name="Stack" Type="Folder">
 				<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
