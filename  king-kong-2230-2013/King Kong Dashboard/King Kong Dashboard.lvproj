@@ -344,6 +344,7 @@
 			<Item Name="Mark Target Centers.vi" Type="VI" URL="../Mark Target Centers.vi"/>
 			<Item Name="Single Button Number.vi" Type="VI" URL="../Single Button Number.vi"/>
 			<Item Name="Get Correct Target.vi" Type="VI" URL="../Get Correct Target.vi"/>
+			<Item Name="Equation.vi" Type="VI" URL="../Equation.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
