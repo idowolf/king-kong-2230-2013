@@ -36,6 +36,7 @@
 				<Item Name="Convert Direction.ctl" Type="VI" URL="../Convert Direction.ctl"/>
 				<Item Name="Vector to cartez.vi" Type="VI" URL="../Vector to cartez.vi"/>
 				<Item Name="Target Dimensions info + Seen now.vi" Type="VI" URL="../Target Dimensions info + Seen now.vi"/>
+				<Item Name="Equation.vi" Type="VI" URL="../Equation.vi"/>
 				<Item Name="Aim drawings.vi" Type="VI" URL="../Aim drawings.vi"/>
 			</Item>
 			<Item Name="Compute Distance.vi" Type="VI" URL="../Compute Distance.vi"/>
@@ -344,7 +345,6 @@
 			<Item Name="Mark Target Centers.vi" Type="VI" URL="../Mark Target Centers.vi"/>
 			<Item Name="Single Button Number.vi" Type="VI" URL="../Single Button Number.vi"/>
 			<Item Name="Get Correct Target.vi" Type="VI" URL="../Get Correct Target.vi"/>
-			<Item Name="Equation.vi" Type="VI" URL="../Equation.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
