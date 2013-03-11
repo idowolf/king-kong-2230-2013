@@ -806,6 +806,7 @@ KeepAliveTimeout 60
 			<Item Name="Flipper Control Servo.vi" Type="VI" URL="../Flipper Control Servo.vi"/>
 			<Item Name="Frisbee Counter.vi" Type="VI" URL="../Frisbee Counter.vi"/>
 			<Item Name="Motors Values.vi" Type="VI" URL="../Motors Values.vi"/>
+			<Item Name="Motors Values.vi" Type="VI" URL="../Extra Project/Wired King-Kong/Motors Values.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
