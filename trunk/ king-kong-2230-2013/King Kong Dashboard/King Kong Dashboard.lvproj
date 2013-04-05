@@ -38,6 +38,7 @@
 				<Item Name="Target Dimensions info + Seen now.vi" Type="VI" URL="../Target Dimensions info + Seen now.vi"/>
 				<Item Name="Equation.vi" Type="VI" URL="../Equation.vi"/>
 				<Item Name="Aim drawings.vi" Type="VI" URL="../Aim drawings.vi"/>
+				<Item Name="Invert eqaution.vi" Type="VI" URL="../Invert eqaution.vi"/>
 			</Item>
 			<Item Name="Compute Distance.vi" Type="VI" URL="../Compute Distance.vi"/>
 			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../Compute HSL Color Ranges.vi"/>
@@ -323,6 +324,8 @@
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
 				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
 				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
