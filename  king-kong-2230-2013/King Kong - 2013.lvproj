@@ -156,6 +156,7 @@ KeepAliveTimeout 60
 			<Item Name="Change Joystick Values.vi" Type="VI" URL="../VI Toolkit/Change Joystick Values.vi"/>
 			<Item Name="Sawtooth.vi" Type="VI" URL="../VI Toolkit/Sawtooth.vi"/>
 			<Item Name="TimeTaskerVr4.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr4.vi"/>
+			<Item Name="Rotating joystick by fixed angle.vi" Type="VI" URL="../VI Toolkit/Rotating joystick by fixed angle.vi"/>
 		</Item>
 		<Item Name="Robots Operations" Type="Folder">
 			<Item Name="Joystick" Type="Folder">
@@ -793,8 +794,6 @@ KeepAliveTimeout 60
 				<Item Name="Build NT Data Update for Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Build NT Data Update for Cluster.vi"/>
 				<Item Name="Build NT Field ID Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Build NT Field ID Buffer.vi"/>
 				<Item Name="Compute Delta.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Compute Delta.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -806,10 +805,6 @@ KeepAliveTimeout 60
 			<Item Name="Flipper Control Servo.vi" Type="VI" URL="../Flipper Control Servo.vi"/>
 			<Item Name="Frisbee Counter.vi" Type="VI" URL="../Frisbee Counter.vi"/>
 			<Item Name="Motors Values.vi" Type="VI" URL="../Motors Values.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
