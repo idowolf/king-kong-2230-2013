@@ -157,6 +157,7 @@ KeepAliveTimeout 60
 			<Item Name="Sawtooth.vi" Type="VI" URL="../VI Toolkit/Sawtooth.vi"/>
 			<Item Name="TimeTaskerVr4.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr4.vi"/>
 			<Item Name="Rotating joystick by fixed angle.vi" Type="VI" URL="../VI Toolkit/Rotating joystick by fixed angle.vi"/>
+			<Item Name="Keep true until....vi" Type="VI" URL="../VI Toolkit/Keep true until....vi"/>
 		</Item>
 		<Item Name="Robots Operations" Type="Folder">
 			<Item Name="Joystick" Type="Folder">
