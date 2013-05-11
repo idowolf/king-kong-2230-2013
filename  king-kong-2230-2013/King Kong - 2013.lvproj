@@ -171,6 +171,7 @@ KeepAliveTimeout 60
 				<Item Name="Flipper Control.vi" Type="VI" URL="../Flipper Control.vi"/>
 				<Item Name="Move Conveyer Belt.vi" Type="VI" URL="../Move Conveyer Belt.vi"/>
 				<Item Name="Conveyer Belt Control.vi" Type="VI" URL="../Conveyer Belt Control.vi"/>
+				<Item Name="Frisbee Counter.vi" Type="VI" URL="../Frisbee Counter.vi"/>
 			</Item>
 			<Item Name="Shooter" Type="Folder">
 				<Item Name="Auto Shoot Using Dashboard Data.vi" Type="VI" URL="../Auto Shoot Using Dashboard Data.vi"/>
@@ -802,8 +803,11 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.0.vi"/>
 			<Item Name="Flipper Control Servo.vi" Type="VI" URL="../Flipper Control Servo.vi"/>
-			<Item Name="Frisbee Counter.vi" Type="VI" URL="../Frisbee Counter.vi"/>
 			<Item Name="Motors Values.vi" Type="VI" URL="../Motors Values.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
