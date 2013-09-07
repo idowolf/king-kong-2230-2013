@@ -118,24 +118,10 @@ KeepAliveTimeout 60
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
-			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
-		</Item>
-		<Item Name="Support Code" Type="Folder">
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-		</Item>
-		<Item Name="Global Variables" Type="Folder">
-			<Item Name="BotStatus.vi" Type="VI" URL="../BotStatus.vi"/>
-		</Item>
-		<Item Name="Global Variables Updaters" Type="Folder">
-			<Item Name="Motor controller.vi" Type="VI" URL="../Motor controller.vi"/>
-			<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
-			<Item Name="Get Dashboard Data.vi" Type="VI" URL="../Get Dashboard Data.vi"/>
-			<Item Name="Send Dashboard Data.vi" Type="VI" URL="../Send Dashboard Data.vi"/>
 		</Item>
 		<Item Name="VI Toolkit" Type="Folder">
 			<Item Name="TimeTaskerVr3.vi" Type="VI" URL="../VI Toolkit/TimeTaskerVr3.vi"/>
@@ -160,52 +146,8 @@ KeepAliveTimeout 60
 			<Item Name="Keep true until....vi" Type="VI" URL="../VI Toolkit/Keep true until....vi"/>
 			<Item Name="Accelration Control (by Throttle) V2.vi" Type="VI" URL="../VI Toolkit/Accelration Control (by Throttle) V2.vi"/>
 		</Item>
-		<Item Name="Robots Operations" Type="Folder">
-			<Item Name="Joystick" Type="Folder">
-				<Item Name="Pilot Analyze.vi" Type="VI" URL="../Pilot Analyze.vi"/>
-				<Item Name="CoPilot Analyze.vi" Type="VI" URL="../CoPilot Analyze.vi"/>
-				<Item Name="CameraControler Analyze.vi" Type="VI" URL="../CameraControler Analyze.vi"/>
-			</Item>
-			<Item Name="Stack" Type="Folder">
-				<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
-				<Item Name="Flipper Control.vi" Type="VI" URL="../Flipper Control.vi"/>
-				<Item Name="Move Conveyer Belt.vi" Type="VI" URL="../Move Conveyer Belt.vi"/>
-				<Item Name="Conveyer Belt Control.vi" Type="VI" URL="../Conveyer Belt Control.vi"/>
-				<Item Name="Frisbee Counter.vi" Type="VI" URL="../Frisbee Counter.vi"/>
-			</Item>
-			<Item Name="Shooter" Type="Folder">
-				<Item Name="Auto Shoot Using Dashboard Data.vi" Type="VI" URL="../Auto Shoot Using Dashboard Data.vi"/>
-				<Item Name="Fire-Sequence.vi" Type="VI" URL="../Fire-Sequence.vi"/>
-				<Item Name="Auto Locate.vi" Type="VI" URL="../Auto Locate.vi"/>
-				<Item Name="Launcher Preparation.vi" Type="VI" URL="../Launcher Preparation.vi"/>
-				<Item Name="Set RPM.vi" Type="VI" URL="../Set RPM.vi"/>
-				<Item Name="Basic trigo.vi" Type="VI" URL="../Basic trigo.vi"/>
-			</Item>
-			<Item Name="Climb" Type="Folder">
-				<Item Name="Climbing to Second Level.vi" Type="VI" URL="../Climbing to Second Level.vi"/>
-				<Item Name="Manual Climb.vi" Type="VI" URL="../King Kong Dashboard/Manual Climb.vi"/>
-			</Item>
-			<Item Name="Auto Shooting" Type="Folder">
-				<Item Name="Shoot Manual and Auto Management Vr2.vi" Type="VI" URL="../Shoot Manual and Auto Management Vr2.vi"/>
-				<Item Name="Auto Centerize.vi" Type="VI" URL="../Auto Centerize.vi"/>
-				<Item Name="Get Formula.vi" Type="VI" URL="../Get Formula.vi"/>
-				<Item Name="Cannon Angle Set.vi" Type="VI" URL="../Cannon Angle Set.vi"/>
-			</Item>
-			<Item Name="Feeder" Type="Folder">
-				<Item Name="Feeder Control.vi" Type="VI" URL="../Feeder Control.vi"/>
-				<Item Name="Servo Acceleration.vi" Type="VI" URL="../Servo Acceleration.vi"/>
-			</Item>
-			<Item Name="Camera" Type="Folder">
-				<Item Name="Target Centralization.vi" Type="VI" URL="../Target Centralization.vi"/>
-				<Item Name="Find Rounded Error.vi" Type="VI" URL="../Find Rounded Error.vi"/>
-				<Item Name="Camera handle.vi" Type="VI" URL="../Camera handle.vi"/>
-				<Item Name="Camera Servo Control by Joystick.vi" Type="VI" URL="../Camera Servo Control by Joystick.vi"/>
-			</Item>
-		</Item>
 		<Item Name="Other VIs" Type="Folder">
-			<Item Name="Override.vi" Type="VI" URL="../Override.vi"/>
 			<Item Name="Limit Switches.vi" Type="VI" URL="../Limit Switches.vi"/>
-			<Item Name="Analog Rotation Sensor.vi" Type="VI" URL="../Analog Rotation Sensor.vi"/>
 		</Item>
 		<Item Name="Test VIs" Type="Folder">
 			<Item Name="Drive" Type="Folder">
@@ -213,12 +155,14 @@ KeepAliveTimeout 60
 				<Item Name="Drive set.vi" Type="VI" URL="../Concept proof/Drive/Drive set.vi"/>
 				<Item Name="Axis modifications.vi" Type="VI" URL="../Concept proof/Drive/Axis modifications.vi"/>
 				<Item Name="Drive Chassies process.vi" Type="VI" URL="../Concept proof/Drive/Drive Chassies process.vi"/>
+				<Item Name="Drive Begin.vi" Type="VI" URL="../Concept proof/Drive/Drive Begin.vi"/>
 			</Item>
 			<Item Name="Triangles" Type="Folder">
 				<Item Name="Triangle global info.vi" Type="VI" URL="../Concept proof/Triangles/Triangle global info.vi"/>
 				<Item Name="Triangle values.vi" Type="VI" URL="../Concept proof/Triangles/Triangle values.vi"/>
 				<Item Name="Triangles set.vi" Type="VI" URL="../Concept proof/Triangles/Triangles set.vi"/>
 				<Item Name="Triangle process.vi" Type="VI" URL="../Concept proof/Triangles/Triangle process.vi"/>
+				<Item Name="Triangle Begin.vi" Type="VI" URL="../Concept proof/Triangles/Triangle Begin.vi"/>
 			</Item>
 			<Item Name="Conveyer Belt" Type="Folder">
 				<Item Name="Conveyer Belt Global Data.vi" Type="VI" URL="../Concept proof/Conveyer Belt/Conveyer Belt Global Data.vi"/>
@@ -226,26 +170,88 @@ KeepAliveTimeout 60
 				<Item Name="Conveyer Belt Set.vi" Type="VI" URL="../Concept proof/Conveyer Belt/Conveyer Belt Set.vi"/>
 				<Item Name="MS Updater.vi" Type="VI" URL="../Concept proof/Conveyer Belt/MS Updater.vi"/>
 				<Item Name="Conveyer Belt Process.vi" Type="VI" URL="../Concept proof/Conveyer Belt/Conveyer Belt Process.vi"/>
+				<Item Name="Conveyer Belt Begin.vi" Type="VI" URL="../Concept proof/Conveyer Belt/Conveyer Belt Begin.vi"/>
+				<Item Name="Conveyer Belt Count.vi" Type="VI" URL="../Concept proof/Conveyer Belt/Conveyer Belt Count.vi"/>
 			</Item>
 			<Item Name="Cannon" Type="Folder">
 				<Item Name="Cannon Sensors Update.vi" Type="VI" URL="../Concept proof/Cannon/Cannon Sensors Update.vi"/>
 				<Item Name="Cannon Set.vi" Type="VI" URL="../Concept proof/Cannon/Cannon Set.vi"/>
 				<Item Name="Cannon Process.vi" Type="VI" URL="../Concept proof/Cannon/Cannon Process.vi"/>
 				<Item Name="Cannon Global Data.vi" Type="VI" URL="../Concept proof/Cannon/Cannon Global Data.vi"/>
+				<Item Name="Cannon Begin.vi" Type="VI" URL="../Concept proof/Cannon/Cannon Begin.vi"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
 				<Item Name="Camera Global Data.vi" Type="VI" URL="../Concept proof/Camera/Camera Global Data.vi"/>
 				<Item Name="Camera Control.vi" Type="VI" URL="../Concept proof/Camera/Camera Control.vi"/>
 				<Item Name="Camera Process.vi" Type="VI" URL="../Concept proof/Camera/Camera Process.vi"/>
 				<Item Name="Camera Set.vi" Type="VI" URL="../Concept proof/Camera/Camera Set.vi"/>
+				<Item Name="Camera Begin.vi" Type="VI" URL="../Concept proof/Cannon/Camera Begin.vi"/>
 			</Item>
+			<Item Name="Joystick" Type="Folder">
+				<Item Name="Pilot Analyze.vi" Type="VI" URL="../Pilot Analyze.vi"/>
+				<Item Name="CoPilot Analyze.vi" Type="VI" URL="../CoPilot Analyze.vi"/>
+				<Item Name="CameraControler Analyze.vi" Type="VI" URL="../CameraControler Analyze.vi"/>
+			</Item>
+			<Item Name="Global Variables Updaters" Type="Folder">
+				<Item Name="Get Dashboard Data.vi" Type="VI" URL="../Get Dashboard Data.vi"/>
+				<Item Name="Send Dashboard Data.vi" Type="VI" URL="../Send Dashboard Data.vi"/>
+			</Item>
+			<Item Name="Aotunomous constants.vi" Type="VI" URL="../Concept proof/Aotunomous constants.vi"/>
+			<Item Name="HI.vi" Type="VI" URL="../Concept proof/HI.vi"/>
+			<Item Name="Special Timed.vi" Type="VI" URL="../Concept proof/Special Timed.vi"/>
+		</Item>
+		<Item Name="Not In Use" Type="Folder">
+			<Item Name="Robots Operations" Type="Folder">
+				<Item Name="Stack" Type="Folder">
+					<Item Name="Stack Control.vi" Type="VI" URL="../Stack Control.vi"/>
+					<Item Name="Flipper Control.vi" Type="VI" URL="../Flipper Control.vi"/>
+					<Item Name="Move Conveyer Belt.vi" Type="VI" URL="../Move Conveyer Belt.vi"/>
+					<Item Name="Conveyer Belt Control.vi" Type="VI" URL="../Conveyer Belt Control.vi"/>
+					<Item Name="Frisbee Counter.vi" Type="VI" URL="../Frisbee Counter.vi"/>
+				</Item>
+				<Item Name="Shooter" Type="Folder">
+					<Item Name="Auto Shoot Using Dashboard Data.vi" Type="VI" URL="../Auto Shoot Using Dashboard Data.vi"/>
+					<Item Name="Fire-Sequence.vi" Type="VI" URL="../Fire-Sequence.vi"/>
+					<Item Name="Auto Locate.vi" Type="VI" URL="../Auto Locate.vi"/>
+					<Item Name="Launcher Preparation.vi" Type="VI" URL="../Launcher Preparation.vi"/>
+					<Item Name="Set RPM.vi" Type="VI" URL="../Set RPM.vi"/>
+					<Item Name="Basic trigo.vi" Type="VI" URL="../Basic trigo.vi"/>
+				</Item>
+				<Item Name="Auto Shooting" Type="Folder">
+					<Item Name="Shoot Manual and Auto Management Vr2.vi" Type="VI" URL="../Shoot Manual and Auto Management Vr2.vi"/>
+					<Item Name="Auto Centerize.vi" Type="VI" URL="../Auto Centerize.vi"/>
+					<Item Name="Get Formula.vi" Type="VI" URL="../Get Formula.vi"/>
+					<Item Name="Cannon Angle Set.vi" Type="VI" URL="../Cannon Angle Set.vi"/>
+				</Item>
+				<Item Name="Climb" Type="Folder">
+					<Item Name="Climbing to Second Level.vi" Type="VI" URL="../Climbing to Second Level.vi"/>
+					<Item Name="Manual Climb.vi" Type="VI" URL="../King Kong Dashboard/Manual Climb.vi"/>
+				</Item>
+				<Item Name="Feeder" Type="Folder">
+					<Item Name="Feeder Control.vi" Type="VI" URL="../Feeder Control.vi"/>
+					<Item Name="Servo Acceleration.vi" Type="VI" URL="../Servo Acceleration.vi"/>
+				</Item>
+				<Item Name="Camera" Type="Folder">
+					<Item Name="Target Centralization.vi" Type="VI" URL="../Target Centralization.vi"/>
+					<Item Name="Find Rounded Error.vi" Type="VI" URL="../Find Rounded Error.vi"/>
+					<Item Name="Camera handle.vi" Type="VI" URL="../Camera handle.vi"/>
+					<Item Name="Camera Servo Control by Joystick.vi" Type="VI" URL="../Camera Servo Control by Joystick.vi"/>
+				</Item>
+			</Item>
+			<Item Name="Global Variables" Type="Folder">
+				<Item Name="BotStatus.vi" Type="VI" URL="../BotStatus.vi"/>
+			</Item>
+			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+			<Item Name="Override.vi" Type="VI" URL="../Override.vi"/>
+			<Item Name="Analog Rotation Sensor.vi" Type="VI" URL="../Analog Rotation Sensor.vi"/>
+			<Item Name="Motor controller.vi" Type="VI" URL="../Motor controller.vi"/>
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="SensorDataUpdater.vi" Type="VI" URL="../SensorDataUpdater.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
-				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
-				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="FPGA_SystemAsynch VI Registration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsynch VI Registration.vi"/>
 				<Item Name="WPI_CameraFrameRate.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraFrameRate.ctl"/>
@@ -436,10 +442,7 @@ KeepAliveTimeout 60
 				<Item Name="WPI_RobotDriveSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyUpdate.vi"/>
 				<Item Name="WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi"/>
 				<Item Name="WPI_CameraRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRefNum Registry Get.vi"/>
-				<Item Name="WPI_CameraGet Image.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraGet Image.vi"/>
-				<Item Name="WPI_CameraWait for Raw Image String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraWait for Raw Image String.vi"/>
 				<Item Name="WPI_CameraGet Image Notifier Internal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraGet Image Notifier Internal.vi"/>
-				<Item Name="WPI_CameraDecodeJPEGString.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraDecodeJPEGString.vi"/>
 				<Item Name="FPGA_UtilitiesLED State.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesLED State.ctl"/>
 				<Item Name="FPGA_UtilitiesLED Source.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Utilities/FPGA_UtilitiesLED Source.ctl"/>
 				<Item Name="WPI_UtilitiesFRC LEDs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC LEDs.vi"/>
@@ -520,9 +523,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_SafetyOutputEngine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SafetyOutput/WPI_SafetyOutputEngine.vi"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
-				<Item Name="WPI_CameraStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraStart.vi"/>
-				<Item Name="WPI_CameraStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraStop.vi"/>
-				<Item Name="WPI_CameraUpdate Camera Status.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraUpdate Camera Status.vi"/>
 				<Item Name="WPI_CameraRead MJPGString.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRead MJPGString.vi"/>
 				<Item Name="WPI_CameraAcquire MJPG Loop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraAcquire MJPG Loop.vi"/>
 				<Item Name="FPGA_MapDIOChannelEnumToModuleLine.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_MapDIOChannelEnumToModuleLine.vi"/>
@@ -553,7 +553,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_CompressorRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Get.vi"/>
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
 				<Item Name="NetComm_UsageReport_report.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_report.vi"/>
-				<Item Name="WPI_CameraERRNoLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraERRNoLoop.vi"/>
 				<Item Name="NT Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write Number.vi"/>
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
 				<Item Name="Field Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Type.ctl"/>
@@ -756,19 +755,12 @@ KeepAliveTimeout 60
 				<Item Name="WPI_CounterWARNDigitalSourceAndEdgeType.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterWARNDigitalSourceAndEdgeType.vi"/>
 				<Item Name="WPI_CounterVerifyDigitalSourceOkWithEdgeType.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterVerifyDigitalSourceOkWithEdgeType.vi"/>
 				<Item Name="WPI_CounterOpen &amp; Configure.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterOpen &amp; Configure.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithTalon.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithTalon.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithExistingMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithExistingMotors.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithCANJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithCANJaguar.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithVictor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithVictor.vi"/>
-				<Item Name="WPI_RobotDriveOpen4MotorWithJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithJaguar.vi"/>
-				<Item Name="WPI_RobotDriveOpen4Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4Motor.vi"/>
 				<Item Name="WPI_ServoOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoOpen.vi"/>
 				<Item Name="WPI_ServoRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Set.vi"/>
 				<Item Name="WPI_RelayOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayOpen.vi"/>
 				<Item Name="WPI_RelayRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Set.vi"/>
 				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 				<Item Name="WPI_AnalogChannelRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Set.vi"/>
-				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="NT Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Numeric Array.vi"/>
 				<Item Name="SD Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Numeric Array.vi"/>
 				<Item Name="WPI_RobotDriveOpen2MotorWithTalon.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithTalon.vi"/>
@@ -834,26 +826,12 @@ KeepAliveTimeout 60
 				<Item Name="WPI_RobotDriveArcadeDrive_RatioCurve.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_RatioCurve.vi"/>
 				<Item Name="WPI_RobotDriveArcadeDrive_ButtonSpin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_ButtonSpin.vi"/>
 				<Item Name="WPI_RobotDriveArcadeDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
-			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../VI Toolkit/Button2ToggleV2.0.vi"/>
-			<Item Name="Flipper Control Servo.vi" Type="VI" URL="../Flipper Control Servo.vi"/>
 			<Item Name="Motors Values.vi" Type="VI" URL="../Motors Values.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
